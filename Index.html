@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style type="text/css">
+    * {
+         font-family: 'Open Sans', sans-serif;
+    }
+    
+    body {
+      background-color: #02FF16;
+      ;
+      background-size: cover;
+    }
+    
+    h2 {
+      text-align: center;
+      color: #02FF16;
+      text-transform: uppercase;
+    }
+    
+    .form {
+      width: 250px;
+      height: 250px;
+      background-color: rgba(0, 0, 0, 0.7);
+      margin: auto;
+      margin-top: 40px;
+      padding: 30px;
+      border-radius: 16px;
+      color: white;
+      position: relative;
+    }
+    
+    .form input {
+      width: 237px;
+      height: 30px;
+      border-radius: 10px;
+      text-transform: uppercase;
+      display: block;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.3);
+      word-spacing: 5px;
+      margin: auto;
+      border: 2px solid #02FF16;
+      transition: 1s;
+    }
+    
+    .form input:focus {
+      width: 160px;
+      border: 2px dashed #02FF16;
+      ;
+      background-color: #02FF16;
+      ;
+      border-radius: 20px;
+    }
+    
+     ::placeholder {
+      color: #02FF16;
+    }
+    
+    .form input[type="submit"] {
+      width: 150px;
+      height: 30px;
+      border-radius: 10px;
+      text-transform: uppercase;
+      text-align: center;
+      margin: auto;
+      display: block;
+      color: #02FF16;
+      ;
+      border: 2px solid #02FF16;
+      ;
+      background-color: rgba(0, 0, 0, 0.5);
+      transition: 0.80s;
+    }
+    
+    
+    .form input[type="submit"]:hover {
+      background-color: #02FF16;
+      width: 35px;
+      border: 1px dashed #02FF16;
+      border-radius: 34px;
+      height: 35px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="form">
+    <h2> Bangla page</h2>
+    <form>
+<input type="phone number or email" placeholder="phone or email"><br>
+      <input type="text" placeholder="type fast name"><br>
+<input type="text" placeholder="type second name"><br>
+      <input type="password" placeholder="type password"><br>
+      <input onclick="return false;" type="submit" value="login" />
+    </form>
+  </div>
+</body>
